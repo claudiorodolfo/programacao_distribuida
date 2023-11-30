@@ -1,0 +1,3 @@
+O código envia 2 mensagens na seguinte ordem.
+De Cliente para Servidor (Cliente ---> Servidor)
+De Servidor para Cliente (Cliente <--- Servidor)

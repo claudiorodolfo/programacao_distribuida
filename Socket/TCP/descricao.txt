@@ -1,0 +1,13 @@
+//Compilar todas as classes normalmente
+//javac *.java
+
+//Sempre executar primeiro o servidor (para ficar aguardando as requisições)
+//e posteriormente o cliente (para realizar as requisições)
+
+//Todos os programas consistem do envio contínuo de mensagens do cliente para o servidor e o retorno do servidor para o cliente da mensagem toda em maiúscula.
+//O envio só é interrompido quando o usuário digita bye(tchau).
+
+//ClienteTCP.java e ServidorTCP.java funcionam de forma análoga ao socket UDP enviando array de bytes (byte[]) pela rede.
+//ClienteTCPTexto.java e ServidorTCPTexto.java transportam Strings Java pela rede.
+//ClienteTCPDado.java e ServidorTCPDado.java transportam tipos de dados nativos do Java pela rede.
+//ClienteTCPObjeto.java e ServidorTCPObjeto.java transportam objetos serializáveis definidos pelo usuário através da rede de computadores.

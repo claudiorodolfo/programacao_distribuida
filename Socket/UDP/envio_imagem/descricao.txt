@@ -1,0 +1,6 @@
+Implementação de Socket UDP em Java - Envio de Imagem
+
+O código envia 3 mensagens na seguinte ordem.
+De Cliente para Servidor (Cliente ---> Servidor) - nome da imagem
+De Servidor para Cliente (Cliente <--- Servidor) - tamanho da imagem
+De Servidor para Cliente (Cliente <--- Servidor) - imagem como array de bytes
