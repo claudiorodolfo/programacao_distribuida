@@ -1,0 +1,13 @@
+// interface definida via idl
+//idlj -fall Calculadora.idl
+
+module CalculadoraApp
+{
+  interface Calculadora
+  {
+  long adicao(in long x, in long y);
+  long subtracao(in long x, in long y);
+  long multiplicacao(in long x, in long y);
+  double divisao(in long x, in long y);
+  };
+};
